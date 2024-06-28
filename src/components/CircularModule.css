@@ -1,0 +1,23 @@
+.circular-chart {
+  max-width: 100%;
+  max-height: 250px;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 3;
+  stroke: #3490dc;
+}
+
+.circle-text {
+  font-size: 3px;
+  text-anchor: middle;
+  fill: #fff;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.slice:hover .circle-text {
+  fill: #000;
+}

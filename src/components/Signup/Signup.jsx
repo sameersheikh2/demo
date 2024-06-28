@@ -29,14 +29,27 @@ const Signup = () => {
           sign up with Facebook
         </button>
       </div>
-      <div className="flex justify-between mb-7">
-        <h3>Register as a Consumer</h3>
-        <h3>Register as a Logistic service provider</h3>
-      </div>
+
       <div className="flex justify-center items-center">
         <div className="h-[1px] w-[13rem] bg-black"></div>
         <span className="mx-2">or</span>
         <div className="h-[1px] w-[13rem] bg-black"></div>
+      </div>
+      <div className="flex flex-col mt-10 items-center justify-center">
+        <input
+          type="email"
+          name="Email"
+          id="Email"
+          placeholder="Email"
+          className="border-[1px] w-96 px-4 py-2 placeholder:text-[#393938] placeholder:text-sm my-3"
+        />
+        <input
+          type="password"
+          name="Email"
+          id="Email"
+          placeholder="Create a password"
+          className="border-[1px] w-96 px-4 py-2 rounded-sm placeholder:text-[#393938] placeholder:text-sm my-3"
+        />
       </div>
     </div>
   );

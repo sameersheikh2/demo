@@ -7,6 +7,8 @@ import { ServicesListingView } from "./views/ServicesListingView";
 import { ContactView } from "./views/ContactView";
 import { LoginView } from "./views/LoginView";
 import Signup from "./components/Signup/Signup";
+import CircularModule from "./components/CircularModule";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         </Routes>
       </div>
       <Signup />
+      <CircularModule />
+      <Footer />
     </div>
   );
 }
